@@ -1,0 +1,16 @@
+{
+    "name": "nbdev_template",
+    // "dockerFile": "Dockerfile",
+    "image": "ejimenezr/jupylab-dev:latest",
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-python.python",
+                // "ms-toolsai.jupyter",
+            ]
+        }
+    }
+}
